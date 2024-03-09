@@ -12,7 +12,7 @@ public class if_else {
         }else{
             System.out.println("b is greater");
         }
-
+        sc.close();
         }
     
 
