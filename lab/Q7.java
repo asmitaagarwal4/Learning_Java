@@ -49,7 +49,7 @@ public class Q7 {
         public static void main(String[] args){
         Triangle t= new Triangle(2, 4, 7, 6,6);
         square s= new square(4);
-        System.err.println(t.area());
-        System.err.println(s.perimeter()); 
+        System.out.println(t.area());
+        System.out.println(s.perimeter()); 
     }
 }

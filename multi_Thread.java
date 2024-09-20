@@ -11,7 +11,7 @@ class mult extends Thread {
 class mult1 extends Thread {
     public void run(){
         for(int i=1; i<5;i++){
-            if(i==3) stop();
+            // if(i==3) stop();
             {
                 System.out.println("second thread"+i);
             }

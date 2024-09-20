@@ -16,11 +16,11 @@ public class Q1 {
         do {
             System.out.println("Choose an option:");
             System.out.println("1. Check Leap Year");
-            System.out.println("2. Check Odd or Even");
-            System.out.println("3. Find Biggest of N numbers");
-            System.out.println("4. Calculate Factorial");
-            System.out.println("5. Generate Fibonacci Series");
-            System.out.println("6. Calculate Student Grade");
+            // System.out.println("2. Check Odd or Even");
+            // System.out.println("3. Find Biggest of N numbers");
+            System.out.println("2. Calculate Factorial");
+            System.out.println("3. Generate Fibonacci Series");
+            // System.out.println("6. Calculate Student Grade");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
@@ -35,32 +35,32 @@ public class Q1 {
                         System.out.println(year + " is not a Leap Year.");
                     }
                     break;
+                // case 2:
+                //     System.out.print("Enter a number: ");
+                //     int num = sc.nextInt();
+                //     if (num % 2 == 0) {
+                //         System.out.println(num + " is Even.");
+                //     } else {
+                //         System.out.println(num + " is Odd.");
+                //     }
+                //     break;
+                // case 3:
+                //     System.out.print("Enter the count of numbers: ");
+                //     int count = sc.nextInt();
+                //     int[] numbers = new int[count];
+                //     System.out.println("Enter the numbers:");
+                //     for (int i = 0; i < count; i++) {
+                //         numbers[i] = sc.nextInt();
+                //     }
+                //     int max = numbers[0];
+                //     for (int i = 1; i < count; i++) {
+                //         if (numbers[i] > max) {
+                //             max = numbers[i];
+                //         }
+                //     }
+                //     System.out.println("The biggest number is: " + max);
+                //     break;
                 case 2:
-                    System.out.print("Enter a number: ");
-                    int num = sc.nextInt();
-                    if (num % 2 == 0) {
-                        System.out.println(num + " is Even.");
-                    } else {
-                        System.out.println(num + " is Odd.");
-                    }
-                    break;
-                case 3:
-                    System.out.print("Enter the count of numbers: ");
-                    int count = sc.nextInt();
-                    int[] numbers = new int[count];
-                    System.out.println("Enter the numbers:");
-                    for (int i = 0; i < count; i++) {
-                        numbers[i] = sc.nextInt();
-                    }
-                    int max = numbers[0];
-                    for (int i = 1; i < count; i++) {
-                        if (numbers[i] > max) {
-                            max = numbers[i];
-                        }
-                    }
-                    System.out.println("The biggest number is: " + max);
-                    break;
-                case 4:
                     System.out.print("Enter a number: ");
                     int n = sc.nextInt();
                     int factorial = 1;
@@ -69,7 +69,7 @@ public class Q1 {
                     }
                     System.out.println("Factorial of " + n + " is: " + factorial);
                     break;
-                case 5:
+                case 3:
                     System.out.print("Enter count of terms for Fibonacci series: ");
                     int countFib = sc.nextInt();
                     int n1 = 0, n2 = 1, nextTerm;
@@ -82,19 +82,19 @@ public class Q1 {
                     }
                     System.out.println();
                     break;
-                case 6:
-                    System.out.print("Enter student's marks: ");
-                    int marks = sc.nextInt();
-                    if (marks >= 90) {
-                        System.out.println("Grade: A");
-                    } else if (marks >= 80) {
-                        System.out.println("Grade: B");
-                    } else if (marks >= 70) {
-                        System.out.println("Grade: C");
-                    } else {
-                        System.out.println("Fail");
-                    }
-                    break;
+                // case 6:
+                //     System.out.print("Enter student's marks: ");
+                //     int marks = sc.nextInt();
+                //     if (marks >= 90) {
+                //         System.out.println("Grade: A");
+                //     } else if (marks >= 80) {
+                //         System.out.println("Grade: B");
+                //     } else if (marks >= 70) {
+                //         System.out.println("Grade: C");
+                //     } else {
+                //         System.out.println("Fail");
+                //     }
+                //     break;
                 case 0:
                     System.out.println("Exit");
                     break;

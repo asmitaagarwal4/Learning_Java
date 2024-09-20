@@ -1,1 +1,1 @@
-// System.out.println(c);
+head.next.next = new ListNode(5);
